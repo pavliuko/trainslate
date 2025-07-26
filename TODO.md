@@ -1,11 +1,9 @@
+@@ -0,0 +1,68 @@
 # Trainslate TODO List
 
 ## ✅ Core MVP
 
-- [ ] Mobile-friendly UI:
-  - [ ] Responsive layout
-  - [ ] Touch-optimized interactions
-  - [ ] Accessible buttons and input fields
+- [ ] Prompt, and api key should be set via env variables
 - [ ] Two-field layout:
   - [ ] Editable input field
   - [ ] Read-only output field (auto-updated)
@@ -24,6 +22,11 @@
   - [ ] Cancels current request and restarts countdown
 - [ ] New session trigger:
   - [ ] `Cmd+K` / `Ctrl+K` starts a new translation session (clears input/output and focuses input)
+- [ ] Mobile-friendly UI:
+  - [ ] Responsive layout
+  - [ ] Touch-optimized interactions
+  - [ ] Accessible buttons and input fields
+
 
 
 ## 🔁 History
