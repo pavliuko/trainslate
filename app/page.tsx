@@ -104,6 +104,11 @@ export default function MainPage() {
       }
       inputRef.current?.focus()
     }
+    
+    if ((e.metaKey || e.ctrlKey) && e.key === 'c' && output) {
+      e.preventDefault()
+      copyToClipboard()
+    }
   }
 
   const copyToClipboard = () => {
@@ -180,6 +185,7 @@ export default function MainPage() {
         <div className="mt-8 text-center text-sm text-gray-500 space-y-1">
           <div>Press <kbd className="px-2 py-1 bg-gray-200 rounded">Enter</kbd> to translate immediately</div>
           <div>Press <kbd className="px-2 py-1 bg-gray-200 rounded">Cmd+K</kbd> / <kbd className="px-2 py-1 bg-gray-200 rounded">Ctrl+K</kbd> to start new session</div>
+          <div>Press <kbd className="px-2 py-1 bg-gray-200 rounded">Cmd+C</kbd> / <kbd className="px-2 py-1 bg-gray-200 rounded">Ctrl+C</kbd> to copy translation</div>
         </div>
       </div>
     </div>

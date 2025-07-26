@@ -26,6 +26,7 @@
   - [x] Responsive layout
   - [x] Touch-optimized interactions
   - [x] Accessible buttons and input fields
+- [x] `Cmd+C` / `Ctrl+C`: copy translated output to clipboard
 
 
 
@@ -59,7 +60,6 @@
 - [x] `Cmd+K` / `Ctrl+K`: 
   - [x] Start new translation session (clear and focus input)
 - [ ] `Cmd+↑ / Cmd+↓`: navigate history
-- [ ] `Cmd+C` / `Ctrl+C` (while output field focused): copy translated output to clipboard
 
 ## 🚀 Optional / Future Enhancements
 
