@@ -77,7 +77,6 @@ The [TODO.md](./TODO.md) file must be kept up to date as the single source of tr
 
 ## Git Workflow
 rules/commit-message.md
-rules/pr.md
 rules/commit-staged-push.md
 
 ## Create/Update agent rules
