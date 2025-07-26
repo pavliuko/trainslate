@@ -3,29 +3,29 @@
 
 ## ✅ Core MVP
 
-- [ ] Prompt, and api key should be set via env variables
-- [ ] Two-field layout:
-  - [ ] Editable input field
-  - [ ] Read-only output field (auto-updated)
-  - [ ] Copy button to copy translated output to clipboard
-- [ ] Translation via OpenAI API
-  - [ ] Configurable API key
-  - [ ] Uses `chat/completions` endpoint
-- [ ] Countdown-based translation trigger:
-  - [ ] Start countdown (e.g. 3 seconds) after user stops typing
-  - [ ] If user resumes typing, reset countdown
-  - [ ] Display visible countdown indicator
-- [ ] Instant translation trigger:
-  - [ ] On `Enter` keypress, immediately send translation request
-- [ ] Interruptible translation:
-  - [ ] Allow editing input during translation
-  - [ ] Cancels current request and restarts countdown
-- [ ] New session trigger:
-  - [ ] `Cmd+K` / `Ctrl+K` starts a new translation session (clears input/output and focuses input)
-- [ ] Mobile-friendly UI:
-  - [ ] Responsive layout
-  - [ ] Touch-optimized interactions
-  - [ ] Accessible buttons and input fields
+- [x] Prompt, and api key should be set via env variables
+- [x] Two-field layout:
+  - [x] Editable input field
+  - [x] Read-only output field (auto-updated)
+  - [x] Copy button to copy translated output to clipboard
+- [x] Translation via OpenAI API
+  - [x] Configurable API key
+  - [x] Uses `chat/completions` endpoint
+- [x] Countdown-based translation trigger:
+  - [x] Start countdown (e.g. 3 seconds) after user stops typing
+  - [x] If user resumes typing, reset countdown
+  - [x] Display visible countdown indicator
+- [x] Instant translation trigger:
+  - [x] On `Enter` keypress, immediately send translation request
+- [x] Interruptible translation:
+  - [x] Allow editing input during translation
+  - [x] Cancels current request and restarts countdown
+- [x] New session trigger:
+  - [x] `Cmd+K` / `Ctrl+K` starts a new translation session (clears input/output and focuses input)
+- [x] Mobile-friendly UI:
+  - [x] Responsive layout
+  - [x] Touch-optimized interactions
+  - [x] Accessible buttons and input fields
 
 
 
@@ -55,9 +55,9 @@
 
 ## ⌨️ Hotkeys
 
-- [ ] `Enter`: send translation immediately
-- [ ] `Cmd+K` / `Ctrl+K`: 
-  - [ ] Start new translation session (clear and focus input)
+- [x] `Enter`: send translation immediately
+- [x] `Cmd+K` / `Ctrl+K`: 
+  - [x] Start new translation session (clear and focus input)
 - [ ] `Cmd+↑ / Cmd+↓`: navigate history
 - [ ] `Cmd+C` / `Ctrl+C` (while output field focused): copy translated output to clipboard
 
